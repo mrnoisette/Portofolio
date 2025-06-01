@@ -11,6 +11,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/api/feur")
-def feur():
-    return {"message": "COUCOU"}
+@app.get("/api/bienvenu")
+def bienvenu():
+    return {"message": "Bonjour et bienvenu sur mon Portofolio !"}

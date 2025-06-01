@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
@@ -10,7 +10,7 @@
   <main>
     <TheWelcome />
   </main>
-</template> -->
+</template>
 
 <style scoped>
 header {
@@ -21,6 +21,7 @@ header {
   display: block;
   margin: 0 auto 2rem;
 }
+
 
 @media (min-width: 1024px) {
   header {
@@ -50,14 +51,14 @@ import { ref, onMounted } from 'vue'
 const message = ref('Chargement...')
 
 onMounted(async () => {
-  const res = await fetch('http://localhost:8000/api/feur')
+  const res = await fetch('http://localhost:8000/api/bienvenu')
   const data = await res.json()
   message.value = data.message
 })
 </script>
 
-<template>
+<!-- <template>
   <div>
     <h1>{{ message }}</h1>
   </div>
-</template>
+</template> -->
