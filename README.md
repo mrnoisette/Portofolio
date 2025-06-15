@@ -1,8 +1,6 @@
 # My portofolio made with Vue & FastAPI
 
-In the goal to familiarise myself to web technologies, I'm currently trying to develop my own Portofolio website with VueJS for the front, and FastAPI for the back.
-
-Please note that I am new to Python and JS language. I am more specialized in software developpemnt (such as .Net stack).
+You will find here the code source of my Portofolio.
 
 ## Why those languages?
 
@@ -10,4 +8,16 @@ Indeed, I could have tried to code with a language wich I am confortable with (s
 
 ## How it is going?
 
-Next question please.
+It is going.
+
+## What I learned?
+
+That Python is the snake that bite Adam. 
+
+More seriously, it is stunning to see how easily it is to fastly code things (which is quite weird to handle for someone you like more low level languages). Because I am not fan of not being able the have the hand on each line of your code. The typage is missing, and this is something that I really don't like.
+
+But as we say, the best solution is not always the best solution. 
+
+For requesting Github to get some informations of my profil, FastAPI was accurate and fit verry well for this job.
+
+Concerning Vue, I am a big fan, nothing to say more.
