@@ -6,7 +6,7 @@ You will find here the code source of my Portofolio.
 
 Indeed, I could have tried to code with a language wich I am confortable with (such as C# with ASP.NET) but the goal here was to learn some new web technologies.
 
-## How it is going?
+## How it is going?
 
 It is going.
 
