@@ -1,15 +1,28 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { Icon } from "@iconify/vue";
 
-const backendMessage = ref('Chargement...')
+const error = ref<string | null>(null)
+
+interface Repo {
+  name: string
+  url: string
+  description: string | null
+  language: string | null
+  stars: number
+  updated: string
+  commits: number
+}
+
+const repos = ref<Repo[] | null>(null)
 
 onMounted(async () => {
   try {
-    const res = await fetch('/api/')
-    const data = await res.json()
-    backendMessage.value = data.message
+    const res = await fetch('/api/repos')
+    const data: Repo[] = await res.json()
+    repos.value = data
   } catch (e) {
-    backendMessage.value = 'Erreur connexion backend'
+    error.value = 'Erreur connexion backend'
   }
 })
 
@@ -18,7 +31,18 @@ onMounted(async () => {
 <template>
   <div>
     <h1>Mon Portfolio Vue + FastAPI</h1>
-    <p>Message backend : {{ backendMessage }}</p>
+
+    <ul v-if="repos">
+      <li v-for="repo in repos" :key="repo.name">
+        <a :href="repo.url" target="_blank"><strong>{{ repo.name }}</strong></a>
+        <p>{{ repo.description }}</p>
+        <Icon icon="mdi:github" width="32" height="32"/>
+        <p>Commits : {{ repo.commits }}</p>
+        <p><small>⭐ {{ repo.stars }} - {{ repo.language }} - Mis à jour : {{ new Date(repo.updated).toLocaleDateString()
+        }}</small></p>
+      </li>
+    </ul>
+
   </div>
 </template>
 

@@ -1,5 +1,6 @@
-from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from github_api import github_router  # <- importe ton router correctement
 
 app = FastAPI()
 
@@ -11,6 +12,4 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+app.include_router(github_router)
