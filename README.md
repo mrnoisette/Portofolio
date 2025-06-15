@@ -1,5 +1,13 @@
-# My portofolio made with Vue (TypeScript) & FastAPI
+# My portofolio made with Vue & FastAPI
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+In the goal to familiarise myself to web technologies, I'm currently trying to develop my own Portofolio website with VueJS for the front, and FastAPI for the back.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Please note that I am new to Python and JS language. I am more specialized in software developpemnt (such as .Net stack).
+
+## Why those languages?
+
+Indeed, I could have tried to code with a language wich I am confortable with (such as C# with ASP.NET) but the goal here was to learn some new web technologies.
+
+## How it is going?
+
+Next question please.
