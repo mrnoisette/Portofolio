@@ -4,7 +4,7 @@ You will find here the code source of my Portofolio.
 
 ## Why those languages?
 
-Indeed, I could have tried to code with a language wich I am confortable with (such as C# with ASP.NET) but the goal here was to learn some new web technologies.
+Well, I could have tried coding in a language I'm comfortable with (like C# with ASP.NET), but the aim here was to learn new web technologies.
 
 ## How it is going?
 
@@ -12,12 +12,10 @@ It is going.
 
 ## What I learned?
 
-That Python is the snake that bite Adam. 
+Python is the snake that bite Adam. 
 
-More seriously, it is stunning to see how easily it is to fastly code things (which is quite weird to handle for someone you like more low level languages). Because I am not fan of not being able the have the hand on each line of your code. The typage is missing, and this is something that I really don't like.
+For someone who likes more low level languages, I'm not a fan of not being able to have a hand on every line of your code. Typing is absent, and that's something I really don't like. But as we say, the best solution is not always the best solution. 
 
-But as we say, the best solution is not always the best solution. 
+For requesting Github to get some informations of my profil, FastAPI was accurate and very suitable for the job.
 
-For requesting Github to get some informations of my profil, FastAPI was accurate and fit verry well for this job.
-
-Concerning Vue, I am a big fan, nothing to say more.
+As for Vue, I'm a big fan, nothing more to say.
